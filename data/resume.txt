@@ -1,0 +1,68 @@
+TEJAS GAJANAN AMZARE
+Java Backend Developer | Spring Boot, REST APIs, PostgreSQL
+Pune, Maharashtra, India | +91-8530467406 | tejasamzare28@gmail.com
+linkedin.com/in/tejas-amzare | github.com/Tejas-Amzare
+
+PROFESSIONAL SUMMARY
+Java backend developer building production REST APIs for TreviaEV CMS, a live multi-tenant EV charging management platform
+developed by a 22+ engineer team. Strong in Java 17, Spring Boot 3, Spring Security, and PostgreSQL, with hands-on work in
+JWT/RBAC authentication, financial data modeling, database migrations, automated testing, and production issue debugging. B.E.
+in Information Technology (2025).
+
+TECHNICAL SKILLS
+Languages: Java 17, SQL
+Core Java: Collections Framework, Exception Handling
+Backend: Spring Boot 3, Spring MVC, Spring Security, REST APIs, JWT, RBAC
+ORM & Persistence: Hibernate (ORM), JPA (Java Persistence API), Spring Data JPA
+Databases: PostgreSQL, MySQL, Database Migrations (Flyway)
+Testing & API Tools: JUnit 5, Mockito, Swagger/OpenAPI, Postman
+Cloud & Tools: AWS (EC2, S3, RDS, IAM fundamentals), Git, GitHub, Maven, Gradle
+Practices: Agile, SDLC, Code Reviews, Technical Documentation
+Frontend: HTML, CSS, JavaScript
+
+PROFESSIONAL EXPERIENCE
+Java Developer Intern, Trevia EV Technologies Pvt. Ltd., Hyderabad
+TreviaEV CMS: multi-tenant EV Charging Management System (Java 17, Spring Boot 3.5, PostgreSQL, Flyway)
+Nov 2025 - Present
+- Founded and own cms-fleet, a production module with a tariff engine (optimistic locking), a Smart Charging Scheduler, and
+  fleet cost and energy analytics dashboards.
+- Founded and own cms-tdrive, a session orchestration gateway with cursor-based pagination and multi-tenant charger
+  fallback, integrating with OCPP and remote charger commands.
+- Designed and implemented JWT access/refresh authentication with BCrypt and role-based access control (RBAC) in Spring
+  Security, including a schema migration from OTP-only login to email/password authentication.
+- Built the backend for the Fleet Dashboard and Energy Analytics module, replacing mocked data with live, tenant-scoped
+  queries for consumer and fleet KPIs (revenue, utilization, energy consumption), charging session data, and vehicle telemetry.
+- Modeled all monetary values as BIGINT paise and basis-point commissions instead of floating-point, ensuring accurate fleet,
+  tariff, and settlement calculations.
+- Resolved ~58 Flyway migration version collisions in a shared monorepo through renumbering and idempotent DDL,
+  unblocking application startup for the full engineering team.
+- Wrote ~40 JUnit 5/Mockito test classes covering service, controller, and mapper layers.
+- Authored 3 OpenAPI specifications and 10 Postman collections (Fleet, Sessions, Dashboard/Analytics, T-Drive Gateway) to
+  document and verify REST APIs.
+- Diagnosed and fixed an OCPP 1.6J WebSocket subprotocol handshake bug in the charger-connectivity layer.
+- Produced architecture and technical specification documents, an OCPP readiness and gap analysis, and an integration design
+  between the CMS and the separate CPO management service (webhook-driven station mirroring).
+
+PROJECTS
+ExpenseFlow: Personal Finance Management Backend
+Spring Boot 3, Spring Security, JWT, MySQL, JPA
+- Designed a normalized relational schema (users, transactions, categories, roles) and secure REST APIs with JWT
+  authentication and role-based authorization.
+- Built analytics endpoints using JPA projections and aggregation queries for monthly and category-wise spending insights.
+
+SkillWise: Talent Matching & Upskilling Platform
+Spring Boot 3, Spring Security 6, PostgreSQL, Swagger
+- Architected a modular backend (users, jobs, skills, recommendations, auth, admin) following clean architecture principles.
+- Implemented JWT authentication and role-based authorization (User/Admin) with Spring Security filter chains; built
+  validated REST APIs for job, skill, and profile management.
+
+EDUCATION
+Bachelor of Engineering, Information Technology
+Sipna College of Engineering & Technology, Amravati, India
+2021 - 2025
+CGPA: 7.93 / 10
+
+CERTIFICATIONS
+- AWS Cloud Practitioner Essentials, Amazon Web Services (EC2, S3, RDS, IAM fundamentals)
+- Java Programming, GeeksforGeeks (Collections Framework, Exception Handling)
+

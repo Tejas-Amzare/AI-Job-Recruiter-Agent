@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Generated artifacts
+reports/
+logs/
+data/job_history.sqlite3
+
+# IDE
+.idea/
+.vscode/
+
+# Secrets
+.env
+
